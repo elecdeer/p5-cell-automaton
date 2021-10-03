@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html --open",
-    "build-publish": "rm -rf public/dist/* && parcel build src/index.html --out-dir public/dist --public-url ./ && git add public/dist/*",
+    "build-publish": "rm -rf public/dist/* && parcel build src/index.html --out-dir public/dist --public-url ./ && git add public/dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "check": "npm-run-all check:*",
     "check:type": "tsc",

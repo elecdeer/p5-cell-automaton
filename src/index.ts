@@ -9,4 +9,4 @@ setInterval(() => {
     frame: p5Instance.frameCount,
     framerate: p5Instance.frameRate(),
   });
-}, 500);
+}, 1000);

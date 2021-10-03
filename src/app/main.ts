@@ -44,7 +44,7 @@ export const sketch = (p5: p5): void => {
     cells[CELL_NUM / 2 + 1][CELL_NUM / 2] = 1;
     cells[CELL_NUM / 2][CELL_NUM / 2 + 1] = 1;
     cells[CELL_NUM / 2 + 1][CELL_NUM / 2 + 1] = 1;
-    console.log("init");
+    // console.log("init");
   };
 
   const createTwoDimArray = <T>(size1: number, size2: number, fill: T): T[][] => {
